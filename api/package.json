@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "swagger": "node swagger.js",
+    "swagger": "node src/swagger.js",
     "start": "npm run swagger && node src/index.js"
   },
   "author": "Pablo Eduardo",
